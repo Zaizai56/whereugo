@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>where u go</title>
+		<link href="//db.onlinewebfonts.com/c/8933cbd7a02bf571f5e9e6083c4364dc?family=Night+Club+Seventy" rel="stylesheet" type="text/css"/>
+		<link href="/public/css/main.css" rel="stylesheet" type="text/css">
+	</head>
+	<header>
+		<a href="/" class="menu">Home</a>
+		<a href="/login" class="menu">Login</a>
+	</header>
+
+	<body>
+		<h1 class="title">Where You Go ?</h1>
+		<input id="search" type="text" name="search" placeholder="I am looking for... ie: 'Italian restaurant'">
+		<input id="location" type="text" name="search" placeholder="Where ? ie: 'San Francisco'">
+		<button id="sendSearch">Go</button>
+		<div id='searchResults'>
+		</div>
+
+
+	</body>
+	<footer>
+		<p>Search engine powered by <a href="yelp.com">YELP</a></p>
+		<p>developped by <a href='https://github.com/Zaizai56'>Zaizai</a></p>
+	</footer>
+		<script type="text/javascript" id="search" src="common/ajax-functions.js"></script>
+		<script type="text/javascript" id="location" src="common/YELPcall.js"></script>
+		<script type="text/javascript" src="controllers/apisearch.client.js"></script>
+</html>
