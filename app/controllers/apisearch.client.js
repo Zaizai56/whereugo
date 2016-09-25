@@ -27,7 +27,7 @@
 	};
 	var master = document.getElementById('searchResults');
 	var loading = document.createElement('img');
-	loading.src = '/public/img/loading.gif';
+	loading.src = 'https://s3.ap-northeast-2.amazonaws.com/portfolio-zaizai/whereugo/loading.gif';
 	master.appendChild(loading);
 	var loadUrl= '/search?input=' + search.value +'&location=' + location.value;
 	ajaxFunctions.ajaxRequest('GET', loadUrl, function (poll) {

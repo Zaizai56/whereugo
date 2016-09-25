@@ -13,7 +13,7 @@ header {
 body {
 	padding-top: 40px;
 	text-align: center;
-	background-image: url("/public/img/congruent_outline.png");
+	background-image: url("https://s3.ap-northeast-2.amazonaws.com/portfolio-zaizai/whereugo/congruent_outline.png");
 	margin:0;
 }
 
